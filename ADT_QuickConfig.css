@@ -1,0 +1,67 @@
+/* AMOLED Dark Theme */
+
+@import url(https://web.archive.org/web/20211204064944cs_/https://discord-addons.github.io/discord-addons/xcores/tools/TS_Core.css);
+.info-1sUqUG:after {
+    content: var(--adt-info) !important;
+    font-size: 12px !important;
+    color: var(--text-muted) !important;
+    display: inline !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    cursor: text !important;
+    visibility: visible !important;
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: 1px !important;
+    right: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    text-transform: none !important;
+}
+.theme-dark {
+    --background-dark-primary: black;
+    --background-dark-secondary: #18191c;
+    --background-dark-tertiary: #131417;
+    --background-dark-4th: #202225;
+
+    --greyaccentcolor: 66, 71, 77;
+    --bg-1: var(--background-dark-primary); /* Black */
+    --bg-2: var(--background-dark-tertiary); /* Darker */
+    --bg-3: var(--background-dark-secondary) ; /* Dark */
+    --bg-4: var(--background-dark-4th); /* Dark-Grey */
+    --xl-bg: var(--xenolib-background-color, #202225);
+    
+    --theme-name: "AMOLED Dark Theme";
+}
+:root {
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62, 130, 229) !important;
+}
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
+    display: var(--version006_adt, block) !important;
+}
+[id*="AmoledDarkTheme-"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adt-build) " ";
+}
+
+/*
+     FILE ARCHIVED ON 06:49:44 Dec 04, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:14:43 Jan 24, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 113.388
+  exclusion.robots: 0.106
+  exclusion.robots.policy: 0.099
+  RedisCDXSource: 0.796
+  esindex: 0.006
+  LoadShardBlock: 91.132 (3)
+  PetaboxLoader3.datanode: 70.167 (4)
+  CDXLines.iter: 18.813 (3)
+  load_resource: 55.206
+  PetaboxLoader3.resolve: 22.939
+*/
